@@ -1,6 +1,6 @@
 # PlayingAround
 
-##Introduction
+## Introduction
 
 A quick analysis of the Titanic dataset.
 
