@@ -1,12 +1,41 @@
 # PlayingAround
-A few examples of what I am up to.
 
-Check each folder for a different project.
+##Introduction
 
-Slidings is a machine learning approach to estimate the probability of a land sliding on a given location in the city of Recife, Brazil, using the public datasets provided by the government.
-You can see more about it in the Next-Machine Learning repository.
+A quick analysis of the Titanic dataset.
 
 
-There is also my analysis of the titanic dataset in (you guessed!) the folder Titanic:
+## Getting Started
 
-In this analysis I compared several algorithms, if you wish you to take a look, start with the notebook 'Titanic(age_by_mean)_PCA_LogisticRegression', then open any other in the order you wish to, and then, you can read my conclusions in the Titanic_Analysis pdf.
+### Dependencies
+
+* Python 3.8
+* Pandas, Numpy
+* Matplotlib, Seaborn
+* Scikit-Learn
+  * GaussianNB
+  * SVC
+  * Ensemble
+  * GradientBoostingClassifier
+  * KNeighborsRegressor
+  * MLPClassifier
+  * LogisticRegression
+  * Train Test Split
+  * Cross Validation Score
+  * ROC Curve, AUC
+  * StandardScaler
+  * Classification report, Confusion matrix
+  * Precision score, Accuracy Score
+  * R2 Score
+  * PCA
+
+
+### Instructions
+
+In this repository I compared the prediction of survived passengers with several algorithms, from GradientBoosting to Multi-layer Perceptron classifier, as well as a Principal component analysis of the dataset.
+If you wish you to take a look, start with the notebook entitled: Titanic(age_by_mean)_PCA_LogisticRegression, where all the data is prepared.
+Then you can read in any order you wish to, and finally, you can read my conclusions in the Ttanic_Analysis pdf.
+
+
+## License
+[MIT](https://opensource.org/licenses/MIT)
